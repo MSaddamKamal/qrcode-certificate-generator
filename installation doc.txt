@@ -1,0 +1,9 @@
+These libraries are required to run this software, plese install it in your system if not installed
+
+pip3 install opencv-python
+
+pip install qrcode
+
+pip install Pillow
+
+
