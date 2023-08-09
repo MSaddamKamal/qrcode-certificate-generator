@@ -23,6 +23,7 @@ It is built on the following techstack.
 
 These libraries are required to run this software, plese install it in your system if not installed
 
+
 ```bash
 pip3 install opencv-python
 
@@ -31,6 +32,23 @@ pip install qrcode
 pip install Pillow
 
 ```
+
+## Run Program
+
+Execute `Main.py` on your desktop, follow the instructions on command line.
+Following are the menu options avalibale.
+```bash 
+        1: 'Add/Update Record',
+        2: 'Delete Record By Id',
+        3: 'List All Records',
+        4: 'Search Record By Id',
+        5: 'Generate Certificates Of Records',
+        6: 'Exit'
+```
+
+Generated Certificate can be found in `generated-certificate` directory.
+
+
 ## Customizations
  You can change the certficate image in the `certificate-config` according to your requirements.
  Make sure to keep the aspect ratio, or manipulate it in the `Main.py`
